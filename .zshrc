@@ -78,7 +78,6 @@ plugins=(
 # Plugin Edit
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
 
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -112,14 +111,3 @@ source $ZSH/oh-my-zsh.sh
 
 
 fastfetch
-
-export EDITOR=code
-export GTK_THEME="Adwaita:dark"  # Or your preferred dark theme
-export QT_STYLE_OVERRIDE=gtk2
-export PATH=$PATH:~/.hyprland-startup/scripts
-export PATH=$PATH:/home/mygz/.cargo/bin
-## [Completion]
-## Completion scripts setup. Remove the following line to uninstall
-[[ -f /home/mygz/.dart-cli-completion/zsh-config.zsh ]] && . /home/mygz/.dart-cli-completion/zsh-config.zsh || true
-## [/Completion]
-
